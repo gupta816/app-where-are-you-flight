@@ -1,6 +1,9 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import Main from './main-app';
 const App = () => {
- return <h1>Where are you flight</h1>;
+ return (<div>
+    <Main/>
+ </div>);
  }
 ReactDOM.render(<App />, document.getElementById('root'));
